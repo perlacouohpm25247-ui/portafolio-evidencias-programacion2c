@@ -44,3 +44,6 @@ class TestOperaciones(unittest.TestCase):
 
     def test_expo_negativa(self):
         self.assertEqual(expo(-2, 3), -8)
+
+if __name__ == '__main__':
+    unittest.main()
