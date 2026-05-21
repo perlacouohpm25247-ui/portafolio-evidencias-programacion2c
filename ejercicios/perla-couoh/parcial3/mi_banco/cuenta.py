@@ -95,7 +95,7 @@ class Cuenta:
         if 0 < cantidad <= self.saldo:
             self.saldo -= cantidad
             return True
-        return False
+        return False                        
     
 def main():
     
@@ -106,4 +106,4 @@ def main():
     print(f"Saldo actual: ${mi_cuenta.saldo}")
 
 if __name__ == "__main__":
-    main()
+    main()              

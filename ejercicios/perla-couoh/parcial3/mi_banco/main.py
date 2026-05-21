@@ -19,8 +19,9 @@ def main():
         if opcion == "1":
             nombre_cliente = input("Ingrese el nombre del cliente: ")
             numero_cuenta = input("Ingrese el número de cuenta: ")
-            nueva_cuenta = cuenta(nombre_cliente, numero_cuenta)
             print(f"Cuenta creada para {nombre_cliente} con número de cuenta {numero_cuenta}")
+        elif opcion == "1":
+            pass
         elif opcion == "2":
             pass
         elif opcion == "3":
@@ -40,6 +41,7 @@ def main():
             print("Opción no válida. Por favor, seleccione una opción del menú.")
 
 if __name__ == "__main__":
-    main()
+    main()      
+
         
         
